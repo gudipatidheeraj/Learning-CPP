@@ -1,9 +1,9 @@
 #include<iostream>
 using namespace std;
 int main() {
-    string arrs[4] = {" Hello", "hi", " Byw", "No"};
-    for(int i = 0; i <= 4; ++i) {
-        cout << arrs[i] << "\n";
+    int n = 5;
+    int arr[] = {11,12,13,14,15};
+    for(int i = 0; i < n; i++) {
+        cout << arr[i] << endl;
     }
-    return 0;
-}
+}   
