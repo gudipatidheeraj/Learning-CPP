@@ -5,8 +5,7 @@ void insert(int arr[], int &size, int element, int position) {
     if (size < 0 || position > size) {
         cout << "invalid position! " << endl;
         return;
-    }
-
+    }  
     for(int i = size; i > position; i--) {
         arr[i] = arr[i - 1];
     }
